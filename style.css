@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #577590;
+}
+
+.screen {
+  width: 98vw;
+  height: 94vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-items: center;
+
+  aspect-ratio: 1/1;
+  width: 25%;
+  margin: 5vh;
+}
+
+.winner {
+  /* position: absolute;
+  top: 5vh; */
+
+  display: none;
+  width: 40vw;
+  height: 20vh;
+
+  border: 2px solid navy;
+  box-shadow: 1vw 1vh 1vw black;
+  background-color: #2e5077;
+  border-radius: 2vh;
+
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.winner-header {
+  color: floralwhite;
+  font-size: 2vw;
+  font-family: "Brush Script MT", cursive;
+}
+
+.newgame-button {
+  display: inline-block;
+  background-color: navajowhite;
+  aspect-ratio: 3/1;
+  width: 10vw;
+  font-size: min(1vw, 2vh);
+  font-family: cursive;
+  font-weight: bold;
+
+  border-radius: 0.5vw;
+}
+
+.newgame-button:hover{
+  box-shadow: 0.5vw 1vh 0.2vw;
+}
+
+.butt {
+  aspect-ratio: 1/1;
+  width: 33.33%;
+
+  background-color: #d0ddd7;
+  color: rgb(44, 26, 29);
+  border: 1px solid black;
+
+  font-size: 5vw;
+}
+
+.buttonhover{
+  background-color:   #b3d8c5;
+  box-shadow: 0.5vw 1vh 1vw;
+  z-index: 1;
+  border-radius: 10%;
+}
+
+.flex-item-1 {
+  border-top-left-radius: 10%;
+}
+
+.flex-item-3 {
+  border-top-right-radius: 10%;
+}
+
+.flex-item-7 {
+  border-bottom-left-radius: 10%;
+}
+
+.flex-item-9 {
+  border-bottom-right-radius: 10%;
+}
+
+#reset {
+
+  position: relative;
+  right: 2vw;
+  bottom: 2vh;
+
+  background-color: navajowhite;
+  aspect-ratio: 3/1;
+  width: 7vw;
+
+  float: right;
+
+  color: black;
+  font-weight: bold;
+  font-size: 1vw;
+  font-family: cursive;
+}
+
+.resethover{
+  box-shadow: 0.2vw 0.5vh 1vw;
+}
